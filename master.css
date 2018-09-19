@@ -1,0 +1,71 @@
+@charset "UTF-8";
+html {
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, div, p, header, main, nav, ul, li, figure, figcaption, section {
+  box-sizing: border-box;
+  position: relative;
+}
+
+figure {
+  width: 300px;
+  margin: 20px auto 0px;
+  padding: 1em;
+  display: block;
+  float: right;
+  clear: both;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  float: right;
+  clear: both;
+  text-align: center;
+}
+
+/*opacity and transparency 0-1
+100 can see
+0 can't see through*/
+
+/*image formats
+bitmap
+gif does 8 bit
+jpg does 24 bit 16.7 million colors
+png 16.7 million colors plus transparencies
+svg newest can use illistrator vector scaleable based on
+numerical data/ Code can animate them. Use with caution.
+*/
+
+/*bg attachment*/
+
+body {
+  background-attachment: fixed;
+  padding: 50px;
+  margin: 0;
+}
+
+/*specify border
+Rounded corners origionally doesn't
+make text fit.
+Pdding Top right bottom left play with numbers
+until more amount of padding on a box.
+img borders: background transparent white
+../ means go up a directory (img) if in an
+img folder*/
+
+/*Text shadows and font shadows
+x, y, axis, specify color and opaxity*/
+
+/*Box shadow does the same as Font shadow
+click (insomething)*/
