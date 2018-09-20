@@ -10,31 +10,36 @@ header {
 }
 
 header img {
+  padding-top: 2em;
+  margin-top: 1em;
   width: 100%;
   height: 250%;
+  clear:both;
 }
 
 nav {
-  height: 40px;
-  padding-top: 0.5em;
+  height: 20px;
+  padding-top: 1.0em;
   clear: both;
 }
 
 nav ul {
   margin: auto;
-  padding: 0.5em;
+  padding: 0.1em;
+  /*padding-left: 1.0em;*/
   list-style-type: none;
 }
 
 nav li {
-  float: left;
+  float:left;
   text-align: center;
   width: 16.66%;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
 }
 
 nav a {
-  background-color: red;
+  font-size: 1.75em;
+  background-color: darkblue;
   color: white;
   display: block;
   height: 30px;
@@ -54,14 +59,16 @@ body {
 
 header h1 {
   color: White;
+  font-style: normal;
   font-size: 3.75em;
+  font-family: sans-serif;
   position: absolute;
-  top: 50%;
   left: 37%;
   transform: translate(-50%, -50%);
-  text-transform: uppercase;
+  text-align-last: center;
+  text-transform: inherit;
   text-outline: 6px 6px black;
-  text-shadow: 4px 4px 6px rgb(180, 207, 176);
+  text-shadow: 5px 5px 6px darkblue;
 }
 
 h2 {
@@ -69,35 +76,31 @@ h2 {
   color: white;
   text-align: center;
   font-size: 3em;
+  font-family: sans-serif;
   text-transform: inherit;
   clear: both;
   /*margin-top: 5em;*/
 }
 
-h3 {
-  padding: 2%;
-  color: white;
-  text-align: left;
-  font-size: 2em;
-  text-transform: inherit;
-  clear: both;
-}
 
 p {
-  padding: 15, 0.5;
+  padding: 5, 0.5;
   color: white;
-  margin-left: 9em;
-  margin-right: 9em;
+  margin-left: 4em;
+  margin-right: 4em;
   margin-bottom: 5em;
-  font-size: 1.25em;
+  margin-top: 2em;
+  font-size: 1.5em;
   clear: both;
 }
 
 footer {
-  background-color: rgb(180, 207, 176);
+  color: white;
+  background-color: darkblue;
   padding: 6px, 0px;
   height: 25px;
   clear: both;
+  text-align-last: center;
 }
 
 img {
@@ -125,57 +128,18 @@ ul {
   text-decoration: none;
 }
 
-/*#aboutus {
-  padding: 15, 0.5;
-  color: white;
-  margin-left: 9em;
-  margin-right: 8em;
-  margin-bottom: 5em;
-  clear: both;
-}*/
 
-/*#baguette {
+
+#meme {
   display: block;
   margin: auto;
   padding: 5px;
-  width: 1200px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   float: none;
   clear: both;
 }
 
-#footer {
-  padding: 15, 0.5;
-  color: black;
-  margin-left: 9em;
-  margin-right: 9em;
-  margin-bottom: 5em;
-  font-size: 1.25em;
-  clear: both;
-}
-
-#footer2 {
-  color: rgb(36, 71, 67);
-  text-decoration: none;
-  clear: both;
-}
-
-#sides {
-  padding: 15, 0.5;
-  color: white;
-  margin-left: 9em;
-  margin-right: 9em;
-  margin-bottom: 5em;
-  font-size: 1.25em;
-  clear: both;
-  text-align: center;
-}
-
-.apps {
-  padding: 5px;
-  float: left;
-  clear: both;
-}
 
 .clearfix {
   clear: both;
@@ -196,49 +160,6 @@ ul {
   text-align: center;
 }
 
-.cost {
-  padding: 15, 0.5;
-  color: white;
-  margin-left: 9em;
-  margin-right: 9em;
-  margin-bottom: 5em;
-  font-size: 1.25em;
-  clear: both;
-  text-align: center;
-}
-
-.drinks {
-  padding: 15, 0.5;
-  color: white;
-  margin-left: 9em;
-  margin-right: 9em;
-  margin-bottom: 5em;
-  font-size: 1.25em;
-  clear: both;
-  text-align: center;
-}
-
-.food {
-  float: left;
-  width: 50%;
-}
-
-.food::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.images {
-  padding: 5px;
-  float: left;
-}
-
-.images2 {
-  padding: 5px;
-  float: left;
-  clear: both;
-}
 
 .map {
   display: block;
@@ -252,32 +173,6 @@ ul {
   text-align: right;
 }
 
-.NA {
-  float: left;
-  width: 25%;
-}
 
-.NA::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.pizza {
-  float: left;
-  width: 33.33%;
-}
-
-.pizza::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.pasta {
-  float: left;
-  width: 33.33%;
-  margin-bottom: 2em;
-}
 
 /*Don't use a lot of margins*/*/
